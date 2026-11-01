@@ -3,7 +3,7 @@ import websockets
 import urllib.request
 import json
 import os
-​GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 ​async def handler(websocket):
 async for message in websocket:
 try:
